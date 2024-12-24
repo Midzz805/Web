@@ -7,7 +7,7 @@ function Enc(type) {
   return encodeURIComponent(type)
 }
 
-// ===== AI
+// ===== A
 
 app.get("/api/openai", async (req, res) => {
   const { q } = req.query;
